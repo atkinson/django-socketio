@@ -1,5 +1,8 @@
-<script src="{{ STATIC_URL|default:MEDIA_URL }}js/socket.io.js"></script>
-<script>
+<script type="text/javascript">
+    window.WEB_SOCKET_SWF_LOCATION = "{{ STATIC_URL|default:MEDIA_URL }}swf/WebSocketMain.swf";
+</script>
+<script type="text/javascript" src="{{ STATIC_URL|default:MEDIA_URL }}js/socket.io.js"></script>
+<script type="text/javascript">
 
 (function() {
 
